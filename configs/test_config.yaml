@@ -1,0 +1,4 @@
+path_to_scaler: 'pretrained/scaler.joblib' # путь до преобученного scaler
+path_to_model: 'pretrained/xgb.joblib' # путь до преобученной модели
+
+path_to_data: 'passwords.csv' # путь до новых данных

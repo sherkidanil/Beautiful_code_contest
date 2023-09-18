@@ -1,0 +1,8 @@
+Accuracy: 1.0
+Precision: 1.0
+Recall: 1.0
+F1-score: 1.0
+Confusion Matrix:
+[[13428     0     0]
+ [    0 74278     0]
+ [    0     0 12294]]

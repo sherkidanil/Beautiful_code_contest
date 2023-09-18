@@ -1,0 +1,12 @@
+random_state: 42
+path_to_scaler: 'pretrained/scaler.joblib' # путь для сохранения scaler
+path_to_model: 'pretrained/xgb.joblib' # путь для сохранения модели
+
+path_to_data: 'passwords.csv' # путь к данным для обучения
+test_size: 0.2 # размер тестовой выборки (в д.ед.)
+
+# параметры модели xgb
+learning_rate: 0.1 
+max_depth: 6
+n_estimators: 1000
+objective: softmax
